@@ -1,0 +1,28 @@
+{
+	"name": "<github_user>/<repo_name>",
+	"type": "pff2-module",
+	"description": "",
+	"license": "MIT",
+	"keywords": [
+		"pff2", "module"
+	],
+	"authors": [
+		{
+			"name": "",
+			"email": "",
+			"role": ""
+		}
+	],
+	"homepage": "",
+	"require": {
+		"stonedz/pff2-installers": "*"
+	},
+  	"require-dev": {
+        "stonedz/pff2": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pff\\modules\\": "src/"
+        }
+    }
+}

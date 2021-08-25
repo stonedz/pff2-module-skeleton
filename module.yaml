@@ -1,0 +1,4 @@
+name: pff2-module-skeleton # Change it, this is the name used by module manager to load the module
+version: "0.1"
+desc:
+class: Pff2ModuleName # Entry class name (not the file name) in src directory
